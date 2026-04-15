@@ -58,3 +58,73 @@ docker compose up --build
 docker ps
 http://localhost:8080
 http://localhost:5000
+
+
+
+
+Below are the required .py files (only code) for each task set with different filenames/content.
+
+
+✅ Task 1
+program1.py (Multiplication Table)
+num = int(input("Enter a number: "))
+
+print(f"Multiplication Table of {num}")
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+
+program2.py (Greatest of Two Numbers)
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+    print("Greatest number is:", a)
+elif b > a:
+    print("Greatest number is:", b)
+else:
+    print("Both numbers are equal")
+
+
+✅ Task 2
+program1.py (Even or Odd)
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+program2.py (Reverse a String)
+text = input("Enter a string: ")
+
+reversed_text = text[::-1]
+
+print("Reversed string:", reversed_text)
+
+
+✅ Task 3
+program1.py (Squares of 1 to 10)
+for i in range(1, 11):
+    print(f"{i} squared is {i*i}")
+
+program2.py (Palindrome Check)
+text = input("Enter a string: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+
+
+✅ Task 4 & 5 (Same Python Files)
+program1.py (Squares of 1 to 10)
+for i in range(1, 11):
+    print(f"{i} squared is {i*i}")
+
+program2.py (Palindrome Check)
+text = input("Enter a string: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
