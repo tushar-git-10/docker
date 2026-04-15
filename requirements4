@@ -1,0 +1,60 @@
+1)A commit is a saved checkpoint of your code with a message, and GitHub just stores those checkpoints online.
+2)A branch is just a safe workspace to make changes without breaking the main project.
+3)git add . stages all your changes so they’re ready to be included in the next commit.
+4)git add "filename" “Stage this specific file so it will be included in the next commit.”
+5)Pull Request? A pull request is a request to merge your changes from one branch into another branch (usually into main).
+
+
+1)git
+git init
+git remote add origin  repo paste''''''
+git branch -M main
+
+2)git add
+git add program1.py
+git commit -m "added"
+git push -u origin main
+
+3)git checkout
+git checkout -b gi-exam
+git add program2.py
+git commit -m "Added"
+git push -u origin git-exam
+
+4)git diff
+git branch
+git checkout main
+git git diff main git-exam
+
+5)pull-request
+-open repo
+-compare & pull request
+click-->create pull request
+merge pull request--> confirm merge
+
+6)IGNORE
+IGNORE/
+  test1.txt
+  test2.txt
+create .gitignore folder
+open ==> open .gitignore & write :- IGNORE/
+
+git add .gitignore
+git commit -m "Added"
+git push
+
+after this all see by just typing git status
+
+
+
+
+7) docker
+docker build -t ai-model-app .
+docker ps
+http://localhost:5000
+
+8) docker compose
+docker compose up --build
+docker ps
+http://localhost:8080
+http://localhost:5000
